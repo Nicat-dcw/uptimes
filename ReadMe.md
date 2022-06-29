@@ -34,6 +34,7 @@ uptime     | Uptimes a Link | URL | Settings With | 15000 (15 seconds)
 uptimeMe      | Uptimes Yourself | creates Server | 150000 | 25000
 
 ** 📜 List of Settings**
+
 Name | Description | Type  |
 ------------ | ------------ | ------------- |
 reqTimeout | Request Timeout | NUMBER
