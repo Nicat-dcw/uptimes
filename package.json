@@ -1,0 +1,34 @@
+{
+  "name": "uptimes",
+  "version": "1.0.0-beta",
+  "description": "Powerfully Uptime Package for Uptime Websites and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicat-dcw/uptimes.git"
+  },
+  "keywords": [
+    "Uptime",
+    "Nicatdcw",
+    "Nicat.dcw",
+    "Uptime",
+    "Uptimes",
+    "Best",
+    "Global",
+    "Beta"
+  ],
+  "author": "Nicat.dcw (Cheeini)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicat-dcw/uptimes/issues"
+  },
+  "homepage": "https://github.com/Nicat-dcw/uptimes#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "http": "^0.0.1-security",
+    "inflames.db": "^2.5.3"
+  }
+}
