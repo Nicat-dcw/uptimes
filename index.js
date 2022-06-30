@@ -18,9 +18,9 @@ module.exports = class uptimess{
   });
   },15000)
 }
-settings(url, config){
+settings(url, config = {}){
     if(!url) throw new TypeError("Please Validate A Config.")
-    if(url === "reqTimeout"){
+    if(config === "reqTimeout"){
         if(!config.content) throw new TypeError("Please valid A Number with milseconds format! Example: 1 seconds = 1000 , 10 seconds = 10000")
         db.set(`uptimeTimeout`, config.content)
     }
